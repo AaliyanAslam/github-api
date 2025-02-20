@@ -20,9 +20,10 @@ form.addEventListener("submit", (event) => {
   
   </ul>
   </div>
-  <div class="more"> 
+  <div class="more m-3"> 
    
-  <div class="user-more">Bio: ${response.bio}</div>
+    <div class="user-more-div">
+      <div class="user-more">Bio: ${response.bio}</div>
   <div class="user-more">Company: ${response.company}</div>
   <div class="user-more">Location: ${response.location}</div>
   <div class="user-more">Followers: ${response.followers}</div>
@@ -30,6 +31,10 @@ form.addEventListener("submit", (event) => {
   <div class="user-more">Public Repositories : ${response.public_repos}</div>
 
   
+    
+    </div>
+  
+
  
   </div>
   </div>
