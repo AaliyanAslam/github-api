@@ -76,7 +76,7 @@ right: 90px;
 .more{
     text-align: center;
     background-color: rgb(238, 238, 238);
-    padding: 6px 140px;
+    padding: 6px 130px;
     border-radius: 9px;
    filter: drop-shadow(0px 4px 6px rgb(109, 108, 108));
   
@@ -85,7 +85,7 @@ right: 90px;
 }
 
 .user-more-div{
- margin-top: 38px;
+ margin-top: 22px;
 }
 .user-more{
 

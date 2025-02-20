@@ -29,6 +29,11 @@ form.addEventListener("submit", (event) => {
   <div class="user-more">Followers: ${response.followers}</div>
   <div class="user-more">Following: ${response.following}</div>
   <div class="user-more">Public Repositories : ${response.public_repos}</div>
+<button>
+  <a href="${response.html_url
+  }">go</a>
+
+</button>
 
   
     
