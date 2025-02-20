@@ -1,8 +1,14 @@
 
-*{
+*, .container{
     margin: 0;
     padding: 0;
     font-family: "Roboto";
+
+    
+
+}
+body{
+   background-color: rgb(243, 241, 241);
 
 }
 .navbar-brand{
@@ -70,13 +76,26 @@ right: 90px;
 .more{
     text-align: center;
     background-color: rgb(238, 238, 238);
-    padding: 6px 170px;
-    border-radius: 5px;
+    padding: 6px 140px;
+    border-radius: 9px;
    filter: drop-shadow(0px 4px 6px rgb(109, 108, 108));
 
 
 }
+
+.user-more{
+
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    padding: 6px 0px;
+    border-radius: 5px;
+    font-weight: 300;
+    filter: drop-shadow(0px 1px 1px rgb(109, 108, 108));
+    margin-top: 5px;
+
+}
 .card{
    filter: drop-shadow(0px 4px 6px rgb(109, 108, 108));
+   background-color: rgb(238, 238, 238);
 
 }
