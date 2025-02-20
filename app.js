@@ -23,17 +23,33 @@ form.addEventListener("submit", (event) => {
   <div class="more m-3"> 
    
     <div class="user-more-div">
-      <div class="user-more">Bio: ${response.bio}</div>
-  <div class="user-more">Company: ${response.company}</div>
-  <div class="user-more">Location: ${response.location}</div>
-  <div class="user-more">Followers: ${response.followers}</div>
-  <div class="user-more">Following: ${response.following}</div>
-  <div class="user-more">Public Repositories : ${response.public_repos}</div>
-<button>
-  <a href="${response.html_url
-  }">go</a>
+      <div class="user-more"><span class="fw-bold"> Bio: </span> ${response.bio}</div>
+  <div class="user-more"><span class="fw-bold">Company:</span> ${response.company}</div>
+  <div class="user-more"><span class="fw-bold">Location:</span> ${response.location}</div>
+  <div class="user-more"><span class="fw-bold">Followers:</span> ${response.followers}</div>
+  <div class="user-more"><span class="fw-bold">Following:</span> ${response.following}</div>
+  <div class="user-more"><span class="fw-bold">Public Repositories :</span> ${response.public_repos}</div>
 
+  <a href="${response.html_url}"><!-- From Uiverse.io by adamgiebl --> 
+<button class="cssbuttons-io-button">
+ See Github
+  <div class="icon">
+    <svg
+      height="24"
+      width="24"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M0 0h24v24H0z" fill="none"></path>
+      <path
+        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  </div>
 </button>
+</a>
+
 
   
     
