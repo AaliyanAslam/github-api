@@ -11,13 +11,28 @@ fetch(`https://api.github.com/users/${input.value}`)
 
     result.innerHTML +=    `
 
-    <div class="card" style="width: 18rem;">
-  <div class="card-body">
-       <h1>${response.login} </h1>
- <img src="${response.avatar_url}" width= "100" alt="">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <div class="card col-md-6 col-lg-6 col-sm-12"  style="height: 28rem; width: 50rem;">
+  <div class="card-body d-flex justify-content-between">
+  <div class='img-n-login d-flex justify-content-center align-items-center'> 
+  <ul> 
+  <img src="${response.avatar_url}" class= "user-img" width= "200" height="200" alt=""><br>
+  <h4 class="user-login">${response.login} </h4>
+  <h6 class="user-name">${response.name} </h6>
+  
+  
+  </ul>
+  </div>
+  <div class="more"> 
+   
+  <div>Followers: ${response.followers}</div>
+  <div>Following: ${response.following}</div>
+  <div>Followers: ${response.followers}</div>
+  <div>Followers: ${response.followers}</div>
+  <div>Followers: ${response.followers}</div>
+
+  
+ 
+  </div>
   </div>
 </div>
     
