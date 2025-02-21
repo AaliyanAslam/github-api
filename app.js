@@ -30,7 +30,7 @@ form.addEventListener("submit", (event) => {
   <div class="user-more"><span class="fw-bold">Following:</span> ${response.following}</div>
   <div class="user-more"><span class="fw-bold">Public Repositories :</span> ${response.public_repos}</div>
 
-  <a href="${response.html_url}"><!-- From Uiverse.io by adamgiebl --> 
+  <a href="${response.html_url}">
 <button class="cssbuttons-io-button">
  See Github
   <div class="icon">
